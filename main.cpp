@@ -23,9 +23,9 @@ int main() {
 		int pos;
 		string temp(buff);
 
-		pos = temp.find_last_of("ESSID:");	
+		pos = temp.find("ESSID");	
 		cout << pos << endl;
-		C++ buff
+		
 	}
 	pclose(in);
 
